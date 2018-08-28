@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<!-- <meta name="description" content="Your description goes here"> -->
+    	<!-- <meta name="keywords" content="one, two, three"> -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+		<title>Anchor Tag Scroll</title>
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<a onclick="initScroll('first'); return false;" href="#">Goto first para</a>
+		<a onclick="initScroll('second'); return false;" href="#">Goto second para</a>
+		<a onclick="initScroll('third'); return false;" href="#">Goto third para</a>
+		<a onclick="initScroll('fourth'); return false;" href="#">Goto fourth para</a>
+		<a onclick="initScroll('fifth'); return false;" href="#">Goto fifth para</a>
+
+		<div id="first">first para</div>
+		<div id="second">second para</div>
+		<div id="third">third para</div>
+		<div id="fourth">fourth para</div>
+		<div id="fifth">fifth para</div>
+<!-- external JavaScript link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>
